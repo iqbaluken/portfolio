@@ -74,31 +74,57 @@
         type="button"
         class="navbar-toggler"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
+        data-bs-target="#navbarSupportedContent"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
         class="collapse navbar-collapse justify-content-between py-4 py-lg-0"
-        id="navbarCollapse"
+        id="navbarSupportedContent"
       >
         <div class="navbar-nav ms-auto py-0">
-          <a href="#home" class="nav-item nav-link active">Home</a>
+          <a
+            href="#home"
+            class="nav-item nav-link active"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show"
+            >Home</a
+          >
           <!-- <a href="#about" class="nav-item nav-link">About</a> -->
-          <a href="#skill" class="nav-item nav-link">Skills</a>
+          <a
+            href="#skill"
+            class="nav-item nav-link"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show"
+            >Skills</a
+          >
           <!-- <a href="#service" class="nav-item nav-link">Services</a> -->
         </div>
         <a
           href="index.html"
           class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block"
+          data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse.show"
         >
           <h1 class="text-primary fw-bold m-0">ISM</h1>
         </a>
         <div class="navbar-nav me-auto py-0">
-          <a href="#project" class="nav-item nav-link">Projects</a>
+          <a
+            href="#project"
+            class="nav-item nav-link"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show"
+            >Projects</a
+          >
           <!-- <a href="#team" class="nav-item nav-link">Team</a> -->
           <!-- <a href="#testimonial" class="nav-item nav-link">Testimonial</a> -->
-          <a href="#contact" class="nav-item nav-link">Contact</a>
+          <a
+            href="#contact"
+            class="nav-item nav-link"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse.show"
+            >Contact</a
+          >
         </div>
       </div>
     </nav>
